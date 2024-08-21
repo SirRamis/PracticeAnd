@@ -14,5 +14,5 @@ def binary_search(arr:list, target, left, right):
         return binary_search(arr, target, left, mid - 1)  # ищем в левой половине
         print(2)
     print(4)
-print()1
+print()
 binary_search([1, 3, 5, 7, 9, 11, 13, 15],5,0, len([1, 3, 5, 7, 9, 11, 13, 15]) - 1)
