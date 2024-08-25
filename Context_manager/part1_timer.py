@@ -13,6 +13,5 @@ class Timer:
 
 
 with Timer() as timer:
-    # Некоторый код, выполнение которого мы хотим измерить
     for i in range(1000000):
         pass
