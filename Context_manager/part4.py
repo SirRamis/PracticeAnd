@@ -21,6 +21,6 @@ fixed_df = pd.read_csv('bas/bikes.csv',
                        parse_dates=['Date'], dayfirst=True,
                        index_col='Date')
 print(fixed_df[:3])
-print(fixed_df['Berri 1'][:10])
-print(fixed_df['Berri 1'].plot())
+print(fixed_df['Berri 1.py'][:10])
+print(fixed_df['Berri 1.py'].plot())
 fixed_df.plot(figsize=(15, 10))
