@@ -1,3 +1,5 @@
+#Принцип разделения интерфейсов
+
 from abc import ABC, abstractmethod
 
 class Printer(ABC):

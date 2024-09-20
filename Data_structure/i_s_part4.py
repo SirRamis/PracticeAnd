@@ -35,7 +35,7 @@ part4_4()
 
 
 def part4_5():
-    a = ['a', 's', '1.py', 'a', '32', '23']
+    a = ['a', 's', 'test_1.py', 'a', '32', '23']
     b = set(a)
     print(b)
 

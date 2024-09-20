@@ -1,3 +1,5 @@
+#Принцип открытости/закрытости
+
 import math
 from abc import ABC, abstractmethod
 

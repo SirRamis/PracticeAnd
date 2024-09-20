@@ -1,4 +1,5 @@
 # Плохой пример
+#Принцип единственной ответственности
 class GenAndSend:
     def __init__(self,sms):
         self.sms = sms

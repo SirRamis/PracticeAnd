@@ -1,6 +1,3 @@
-import pytesseract
-from PIL import Image
+class Person():
+    pass
 
-image = Image.open('test.jpg')
-string = pytesseract.image_to_string(image, lang='En')
-print(string)
