@@ -6,7 +6,7 @@ class Person:
       self.ear = ear
 
 cat = Person('Fixi',23,1987)
-print(cat.nameW)
+print(cat.name)
 
 # class Person2:
 #    def __init__(self, name):

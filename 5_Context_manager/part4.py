@@ -1,3 +1,4 @@
+import matplotlib
 #%matplotlib inline
 
 import pandas as pd
