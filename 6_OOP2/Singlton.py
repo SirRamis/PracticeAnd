@@ -13,7 +13,8 @@ class Singleton:
 if __name__ == '__main__':
     s1 = Singleton()
     s2 = Singleton()
-
+    Singleton.data = 102
     print(s1 is s2)  # True, оба объекта ссылаются на один и тот же экземпляр
+    print(Singleton.data)
 
 
