@@ -1,7 +1,7 @@
-# zeroes = [0 for i in range(100)]
-# for i in zeroes:
-#     print(i)
-# print(zeroes)
+zeroes = [0 for i in range(10)]
+for i in zeroes:
+    print(i)
+print(zeroes)
 
 # n = int(input())
 # a = [i for i in range(1, n+1)]
