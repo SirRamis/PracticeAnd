@@ -13,6 +13,8 @@ def run():
     #     e.start()
     # for e in threads:
     #     e.join()
+    threads.run()
+    #threads.start()
     end = time.time()
     print(end - start)
 
